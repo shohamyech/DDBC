@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_FriendsParcels"
+            android:icon="@drawable/ic_friends_24"
+            android:title="@string/menu_friends_parcels" />
+        <item
+            android:id="@+id/nav_RegisteredParcels"
+            android:icon="@drawable/ic_parcels_24"
+            android:title="@string/menu_registered_parcels" />
+        <item
+            android:id="@+id/nav_HistoryParcels"
+            android:icon="@drawable/ic_history_24"
+            android:title="@string/menu_history_parcels" />
+
+        <item
+            android:id="@+id/nav_signInOrOut"
+            android:icon="@drawable/ic_sign_in"
+            android:title="" />
+    </group>
+</menu>
